@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	border: none;
+	outline: none;
+}
+
+.cls{
+	clear: both;
+}
+body{
+	padding-left: 330px;
+}
+.menu{
+	width: 330px;
+	height: 100%;
+	background-color: #2c303b;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.menu ul{
+	width: 100%;
+}
+.menu ul li{
+	width: 100%;
+	margin-top: 50px;
+}
+.menu ul li a {
+	width: 150px;
+	margin-left: calc(40% - 75px);
+	text-align: center;
+	display: inline-block;
+	color: white;
+	padding-top: 40px;
+	background-repeat: no-repeat;
+	background-position:  center 0;
+}
+.menu-home{
+	background-image: url("../img/mtavari.png");
+}
+.menu-pages{
+	background-image: url("../img/book.png");
+}
+.menu-chanawerebi{
+	background-image: url("../img/chanawerebi.png");
+}
+.menu-cat{
+	background-image: url("../img/cat.png");
+}
+.menu-files{
+	background-image: url("../img/files.png");
+}
+.menu-menus{
+	background-image: url("../img/menus.png");
+}
+.menu-users{
+	background-image: url("../img/users.png");
+}
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #2c303b;
+}
+.records-top{
+	width: 80%;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.records-title{
+	font-weight: normal;
+	padding-left: 60px;
+	height: 40px;
+	line-height: 40px;
+	background: url("../img/chanawerebi_black.png") no-repeat 0 center;
+}
+
+.records-title{
+	float: left;
+}
+.records-butt{
+	float: right;
+}
+.records-butt li{
+	margin-left: 20px;
+	float: left;
+}
+
+.records-butt li a{
+	color: white;
+	display: inline-block;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	padding: 0 20px;
+}
+.new-record{
+	background-color: #df86ff;
+}
+.restore{
+	background-color: #ff0000;
+}
+.sort{
+	background-color: #737574;
+}
+
+.records{
+	margin-left: 40px;
+	width: 80%;
+	margin-top: 100px;
+
+}
+
+.records li {
+	padding-left: 20px;
+	font-size: 22px;
+	height: 78px;
+	border: 1px solid black;
+	line-height: 78px;
+}
+.records li p {
+	height: 100%;
+	width: 80%;
+	overflow: hidden;
+	float: left;
+}
+.record-manage{
+	height: 100%;
+	float: right;
+}
+.records li a{
+	margin-left: 10px;
+	display: inline-block;
+	height: 78px;
+	width: 35px;
+}
+.record-visibility{
+	background: url("../img/non_visible.png") no-repeat center center;
+}
+.record-edit{
+	background: url("../img/edit.png") no-repeat center center;
+}
+.record-del{
+	background: url("../img/del.png") no-repeat center center;
+}
+.add-record{
+	margin-top: 50px;
+}
+.add-record-left,.add-record-right{
+	
+	float: left;
+	height: 800px;
+}
+
+.add-record-left{
+	margin-left: 40px;
+	width: 1005px;
+}
+.add-record-right{
+	margin-left: 40px;
+	width: 370px;
+}
+
+
+.add-record input{
+	display: inline-block;
+}
+.add-record input[type="text"]{
+	font-size: 18px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	width: calc(100% - 12px);
+	margin-bottom: 40px;
+	height: 30px;
+	padding: 5px;
+}
+.add-record input[type="submit"]{
+	width: 176px;
+	height: 48px;
+	border: 1px solid black;
+	background: #00aeef;
+	color: white;
+	margin-top: 40px;
+}
+.chk-cont{
+	float: left;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+}
+.chk-style{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	
+	background: url("../img/non_visible.png");
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+}
+#visib{
+	display: none;
+	position: absolute;
+	color: red;
+	background-color: red;
+	width: 50px;
+	height: 50px;
+}
+.chk-label{
+	float: left;
+	color: #1390d8;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.img-up{
+	margin-top: 32px;
+	height: 233px;
+	width: 368px;	
+	line-height: 233px;
+	border: 1px solid black;
+	text-align: center;
+	cursor: pointer;
+}
+
+.add-record input[type="file"]{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.record-cats{
+	margin-top: 40px;
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	background-color: #1390d8;
+	color: white;
+}
+.cats{
+	margin-left: 10px;
+}
+.cats li {
+	margin-top: 15px;
+}
+.cats li input{
+	width: 20px;
+	height: 20px;
+}
+.cats li label {
+	margin-left: 20px;
+	display: inline-block;
+	line-height: 20px;
+}
